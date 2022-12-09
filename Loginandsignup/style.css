@@ -1,0 +1,86 @@
+.w-450 {
+  width: 450px;
+}
+.vh-100 {
+  min-height: 100vh;
+}
+
+h4 {
+  text-align: center;
+  color: blue;
+}
+
+.btn-danger {
+  position: relative;
+  left: 130px;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.btn-primary {
+  position: relative;
+  left: 120px;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.btn-danger:hover {
+  background-color: rgb(2, 161, 37);
+  transition: 0.5s;
+  outline: none;
+  border: none;
+  transform: translateY(1px);
+}
+
+.btn-primary:hover {
+  background-color: rgb(2, 161, 37);
+  transition: 0.5s;
+  outline: none;
+  border: none;
+  transform: translateY(1px);
+}
+
+@media (max-width: 600px) {
+  /* .shadow {
+    position: relative;
+    right: 0px;
+    top: -10px;
+  }
+  .w-450 {
+    width: 350px;
+  }
+  .vh-100 {
+    min-height: 100vh;
+  }
+  .btn-danger {
+    position: relative;
+    left: 70px;
+    width: 70px;
+  }
+  .btn-primary {
+    position: relative;
+    left: 50px;
+    width: 90px;
+  } */
+  .shadow {
+    position: relative;
+    right: 0px;
+    top: -10px;
+  }
+  .w-450 {
+    width: 350px;
+  }
+  .vh-100 {
+    min-height: 100vh;
+  }
+  .btn-danger {
+    position: relative;
+    left: 70px;
+    width: 90px;
+  }
+  .btn-primary {
+    position: relative;
+    left: 50px;
+    width: 90px;
+  }
+}
