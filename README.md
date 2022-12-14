@@ -1,4 +1,4 @@
-# How to build Phpmyadmin
+## How to build Phpmyadmin
  
  
 ### Fist we need to login on were account (user = "root", password = "")
